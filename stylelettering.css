@@ -1,0 +1,56 @@
+body {
+ margin:0;
+}
+nav {
+ background-color: tomato;
+ min-width: 1300px;
+}
+.navigation ul {
+ font: bold 14px "Roboto", Helvetica, Arial, sans-serif;
+ margin: 0px;
+ padding: 0;
+ display: flex;
+ justify-content: center;
+}
+.navigation li {
+ display: inline-block;
+ margin: 30px;
+}
+.navigation a {
+ background: transparent;
+ color: black;
+ padding: 10px 15px;
+ text-decoration: none;
+ letter-spacing: 2px;
+ transition: 0.5s;
+}
+.navigation a:hover {
+ color: white;
+ background: black;
+ border-radius: 10px;
+ text-decoration: line-through;
+ letter-spacing: 3px;
+}
+.text-content {
+  display: flex;
+  background: transparent;
+  border-radius: 3px;
+  border-color: tomato;
+
+}
+h1{
+  display: flex;
+  justify-content: center;
+  font-family: 'Lora', serif;
+  font-size: 30px;
+  letter-spacing: 15px;
+  color: black;
+}
+p {
+  display: flex;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  letter-spacing: 5px;
+  color: tomato;
+}

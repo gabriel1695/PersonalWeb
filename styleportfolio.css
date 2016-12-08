@@ -1,0 +1,51 @@
+
+.navigation ul {
+ font: bold 14px "Roboto", Helvetica, Arial, sans-serif;
+ margin: 0;
+ padding: 0;
+}
+.navigation li {
+ display: inline-block;
+ margin-top: 50px;
+ margin-left: 50px;
+}
+.navigation a {
+ background: white;
+ color: black;
+ padding: 10px 15px;
+ text-decoration: none;
+ letter-spacing: 2px;
+ transition: 0.5s;
+}
+.navigation a:hover {
+ color: white;
+ background: black;
+ border-radius: 10px;
+ text-decoration: line-through;
+ letter-spacing: 3px;
+}
+
+.portfolio-gallery {
+  list-style: none;
+  padding: 0;
+  margin: 70px 0px;
+  text-align: center;
+
+}
+
+.portfolio-gallery li {
+  display: inline;
+}
+
+.portfolio-gallery li img {
+  margin: 5px;
+  border: 15px solid black;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.portfolio-gallery li img:hover {
+  border-width: 5px;
+  cursor: pointer;
+  border-radius: 7px;
+}

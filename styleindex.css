@@ -1,0 +1,119 @@
+body {
+  margin:0;
+}
+
+.hero {
+  background-image: url("/Users/gabrieljuarez/Desktop/RED/PersonalWeb/images/index/hero-index-imgbw.jpg");
+  background-color: #2BEDE4;
+  min-width: 1140px;
+  background-size: cover;
+  padding-bottom: 70px;
+}
+
+.logo-index {
+  padding-left: 40px;
+  padding-top: 40px;
+}
+
+.index-social-icons {
+  padding-right: 40px;
+  padding-top: 60px;
+}
+
+.index-social-icons i {
+ display: inline-block;
+}
+.index-social-icons a {
+ color: white;
+ text-decoration: none;
+ transition: 0.2s;
+}
+.index-social-icons a:hover {
+ color: #2BEDE4;
+}
+
+.logo-social-index {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}
+
+.juarez-lettering {
+  display: flex;
+  justify-content: center;
+}
+
+h3 {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+  letter-spacing: 5px;
+}
+
+.menu {
+  height: 450px;
+  min-width: 1140px;
+  background-color: black;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  padding-top: 290px;
+  letter-spacing: 2px;
+
+}
+
+.menu-text h1 {
+ font-family: 'Roboto', sans-serif;
+ text-align: center;
+ font-size: 40px;
+}
+
+.menu-text a {
+ color: white;
+ text-decoration: none;
+ transition: 0.8s;
+}
+
+.menu-text a:hover {
+ text-decoration: line-through;
+ color: #2BEDE4;
+ cursor: pointer;
+ letter-spacing: 5px;
+}
+
+.menu-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.menu-button {
+  border: 0;
+  color: black;
+  letter-spacing: 3px;
+  font:  bold 14px "Roboto", Helvetica, Arial, sans-serif;
+  padding: 10px 20px 10px 20px;
+  font-size: 14px;
+  background-color: white;
+  transition: 0.3s;
+  border-radius: 5px;
+  border: 2px solid white;
+
+}
+
+.menu-button:hover {
+  background: transparent;
+  color: white;
+  border: 2px solid white;
+  border-radius: 7px;
+  letter-spacing: 4px;
+  text-decoration: line-through;
+  cursor: pointer;
+}
+
+
+
+/*FONTS
+font-family: 'Lora', serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
